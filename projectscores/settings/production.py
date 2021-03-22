@@ -2,9 +2,9 @@
 from .base import *
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['songs.encuentralibre.com.ar', 'http://songs.encuentralibre.com.ar/']
+ALLOWED_HOSTS = ['songs-project-backend.herokuapp.com']
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
